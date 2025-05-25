@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You 💖</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1513207565459-d7f34c3e1dfc?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      backdrop-filter: blur(5px);
+    }
+    .message-box {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .message {
+      font-size: 1.5rem;
+      line-height: 1.8;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <div class="message-box">
+    <h1>Happy One, Baby 💖</h1>
+    <p class="message">
+      I love you forever. I'm so lucky to have you in my life.<br><br>
+      Probably the happiest year of my life.<br>
+      I wanna marry you and have that cute future together that we always talk about.<br><br>
+      No matter what life brings, I'll be by your side forever and until I die.
+    </p>
+  </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop hidden>
+    <source src="audiocute.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
